@@ -17,7 +17,7 @@
   <body>
     <div class="card">
       <div class="card__img">
-        <img src="./326416361_697480378711699_261097283717354509_n.jpg" alt="" />
+        <img src="./img/07.jpg" alt="" />
       </div>
       <h2>Hồ Đạt</h2>
       <p>Sinh viên NTTU</p>
@@ -39,7 +39,42 @@
           ZaLo
         </a>
       </div>
-      <button>Hướng dẫn cách nhắn tin với tôi =]]</button>
+      <button  id="openModal">Hướng dẫn cách nhắn tin với tôi =]]</button>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Hướng Dẫn nè</h2>
+          <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'facebook')">Facebook</button>
+            <button class="tablinks" onclick="openTab(event, 'zalo')">Zalo</button>
+            <button class="tablinks" onclick="openTab(event, 'nganhang')">Ngân hàng</button>
+          </div>
+      
+          <div id="facebook" class="tabcontent">
+            <h3>Facebook </h3>
+            <img src="./img/01.png" alt=""><br>
+            <img src="./img/02.png" alt=""><br>
+            <img src="./img/03.png" alt=""><br>
+          </div>
+      
+          <div id="zalo" class="tabcontent">
+            <h3>ZaLo </h3>
+            <img src="./img/04.png" alt=""><br>
+            <img src="./img/05.png" alt=""><br>
+          </div>
+      
+          <div id="nganhang" class="tabcontent">
+            <h3>Ngân hàng nè</h3>
+            <p>Đầy là cách trò chuyện nhanh nhất =]]</p>
+            <img src="./img/06.jpg" alt=""><br>
+
+          </div>
+        </div>
+
     </div>
+
+
+    <script src="./scripjava.js"></script>
   </body>
 </html>
